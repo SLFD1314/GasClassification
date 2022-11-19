@@ -2,7 +2,6 @@
 % Sensor drift dataset: batch1-batch10. http://archive.ics.uci.edu/ml/datasets/Gas+Sensor+Array+Drift+Dataset+at+Different+Concentrations
 clear
 clc
-addpath([cd '/ODELM']);
 %% Import training set and test set
 % Training set: Batch 1
 dataname = ['batch',num2str(1),'.dat'];
